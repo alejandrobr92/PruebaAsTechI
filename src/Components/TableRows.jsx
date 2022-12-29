@@ -6,8 +6,7 @@ const TableRows = () => {
 
     return allData?.slice(0, 10).map(register =>
         <tr key={register._id}>
-
-            <td>{<Link to={register._id}>{register._id}</Link>}</td>
+            <td className="file">{<Link className="link" to={register._id}>{register._id}</Link>}</td>
             <td>{register.cityid}</td>
             <td>{register.name}</td>
             <td>{register.state}</td>

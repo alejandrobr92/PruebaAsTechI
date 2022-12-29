@@ -1,3 +1,11 @@
 .App {
   text-align: center;
+  padding: 80px;
+}
+.file {
+  padding: 4px;
+}
+
+.link {
+  text-decoration: none;
 }
